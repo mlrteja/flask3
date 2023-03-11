@@ -2,7 +2,7 @@ from flask import Flask
 
 app  = Flask(__name__)
 
-@app.route("/")  # localhost:port_number/home
+@app.route("/",methods=['GET'])  # localhost:port_number/home
 
 
 
